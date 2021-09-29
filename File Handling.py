@@ -1,0 +1,6 @@
+a=open('b.txt','w')
+a.write('electrostatic force:- The attractive or repulsive force between 2 charges is directly proportional to the product of both charges and inversely proportional to the square of distance between them on the same line of axis.')
+a=open('b.txt','r')
+b=a.read(250)
+print(b)
+a.close()
